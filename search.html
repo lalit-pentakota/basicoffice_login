@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Candidate Search - Recruitment Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Candidate Search</h1>
+    </header>
+
+    <main>
+        <section id="search-form">
+            <h2>Find Candidates</h2>
+            <form>
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+
+                <label for="job-role">Job Role:</label>
+                <input type="text" id="job-role" required>
+
+                <button type="submit" onclick="searchCandidates()">Search</button>
+            </form>
+        </section>
+
+        <section id="candidate-list">
+            <h2>Search Results</h2>
+            <ul id="candidates">
+                <!-- The search results will be populated dynamically through JavaScript -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; sherlock Recruitment Solution. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

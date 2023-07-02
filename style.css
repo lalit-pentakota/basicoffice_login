@@ -1,0 +1,118 @@
+/* Common Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Login Page */
+
+#login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#login-form label,
+#login-form input,
+#login-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Registration Page */
+
+#registration-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#registration-form label,
+#registration-form input,
+#registration-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Candidate Search Page */
+
+#search-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#search-form label,
+#search-form input,
+#search-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#candidates {
+    list-style-type: none;
+    padding: 0;
+}
+
+#candidates li {
+    margin-bottom: 5px;
+}
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .register-button:hover {
+    background-color: #555;
+  }
+  .search-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .search-link:hover {
+    background-color: #555;
+  }
+    
